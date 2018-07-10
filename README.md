@@ -13,7 +13,7 @@ Code from whiteboard (physical or virtual) interviews or otherwise, even after t
     ###########
          #
 ```
-* fizzbuzz
+* The old standy, fizzbuzz
 ```
 └─▪ ./fizzbuzz.py 20
     1
