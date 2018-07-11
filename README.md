@@ -37,3 +37,17 @@ Code from whiteboard (physical or virtual) interviews or otherwise, even after t
     19
     buzz
 ```
+* Test for duplicate members of an array (3 different methods)
+```
+    Given arrays:
+    array_a = ["sun", "moon", "stars", "sun"]
+    array_b = ["sun", "moon", "stars"]
+
+    └─▪ ./dupes.py 
+    True
+    False
+    True
+    False
+    True
+    False
+```
