@@ -51,3 +51,9 @@ Code from whiteboard (physical or virtual) interviews or otherwise, even after t
     True
     False
 ```
+```
+* Report on active IAM user keys over 60 days old
+```
+└─▪ ./expired_keys.sh 
+todd.campbell keys over 60 days old
+
