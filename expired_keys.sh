@@ -3,6 +3,11 @@
 # Done on the fly during interview:
 #
 # Provide a list of IAM users with active keys over 60 days old
+#
+# Post dicussion of code improvements:
+#  * Pre-compute the expiretime and pass it in so avoid computing it
+#    during every invocation
+
 
 for u in $(aws iam list-users --query='Users[].UserName' --output text)
 do
