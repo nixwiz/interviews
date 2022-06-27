@@ -56,4 +56,15 @@ Code from whiteboard (physical or virtual) interviews or otherwise, even after t
     └─▪ ./expired_keys.sh 
     todd.campbell keys over 60 days old
 ```
-
+* Please add two matrix together using the yaml file as input and display the result:
+ 
+```
+---
+matrix:
+  one:
+    - [1, 3, 1]
+    - [1, 0, 0]
+  two:
+    - [0, 0, 5]
+    - [7, 5, 0]
+```
